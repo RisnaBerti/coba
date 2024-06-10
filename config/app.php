@@ -186,6 +186,9 @@ return [
          * Package Service Providers...
          */
 
+        App\Providers\FortifyServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
+        App\Providers\ViewComposerServiceProvider::class,
         /*
          * Application Service Providers...
          */
